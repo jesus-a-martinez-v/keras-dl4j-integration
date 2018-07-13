@@ -8,15 +8,17 @@ The easiest way to get started is to load this project in IntelliJ. You'll also 
 
 ### Create conda environment
 
-`conda env create -f env.yml`
-`source activate data`
+```
+conda env create -f env.yml
+source activate data
+```
 
 ### Run Keras model
 
 `cd src/main`
 `python keras_model.py`
 
-You should see how to model gets trained, and also two files should appear at the same level of the script: `iris_model_json` and `iris_model_save`
+You should see how to model gets trained, and also two files should appear at the same level of the script: `iris_model_json` and `iris_model_save`.
 
 ### Load model in DL4J
 
